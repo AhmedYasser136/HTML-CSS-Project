@@ -1,4 +1,9 @@
-.body{
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
     background-image: url(/imag/5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
