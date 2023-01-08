@@ -94,11 +94,11 @@ form {
 
 .submit {
     margin-left: 39%;
-    margin-top: 18%;
+    margin-top: 17%;
 
     padding-right: 10%;
     padding-left: 5%;
-    
+    padding-top: 1px;
     width: 21%;
     height: 10%;
     
