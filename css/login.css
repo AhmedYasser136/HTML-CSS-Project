@@ -145,5 +145,15 @@ a {
     right: 0;
     width: 100%;
     text-align: center;
-    
+}
+
+i {
+    padding-left: 10px;
+    margin-left: 10px;
+
+position: relative;
+
+right:10px;
+/* top: px; */
+
 }
