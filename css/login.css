@@ -26,6 +26,11 @@ input {
     padding-top: 5px;
     margin: 0 auto;
     display: block;
+
+    width: 180px;
+    border-radius: 4px;
+    border: blue;
+
 }
 
 
@@ -93,17 +98,17 @@ form {
 
 
 .submit {
-    margin-left: 39%;
-    margin-top: 17%;
+    margin-left: 90px;
+    margin-top: 20px;
 
     padding-right: 10%;
-    padding-left: 5%;
+    padding-left: 30px;
     padding-top: 1px;
-    width: 21%;
-    height: 10%;
-    
+    width: 120px;
+    height: 40px;
+
     background: rgb(160, 29, 142);
-    border-radius: 10px;
+    border-radius: 30px;
 
 }
 
