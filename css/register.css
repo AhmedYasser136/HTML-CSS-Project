@@ -8,40 +8,41 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
-    height: 100vh;
-
-
+    height: 92vh;
 
 }
 
+/* ######################################### */
+.fname {
 
+    font-size: 30px;
+
+}
+
+.fname::first-letter {
+    color: white;
+    font-size: 40px;
+    display: block;
+}
+
+/* ########################################## */
+
+.lname {
+
+    font-size: 30px;
+
+}
+
+.lname::first-letter {
+    color: white;
+    font-size: 40px;
+    display: block;
+}
+
+/* ########################################## */
 
 .uname {
-    padding-top: 10%;
-
     font-size: 30px;
-
-}
-
-input {
-    padding-top: 5px;
-    margin: 0 auto;
-    display: block;
-
-    width: 180px;
-    border-radius: 4px;
-    border: blue;
-
-}
-
-
-.password {
-
-    font-size: 30px;
-    padding-top: 10%;
-    display: block;
-
 }
 
 .uname::first-letter {
@@ -50,41 +51,86 @@ input {
     display: block;
 }
 
+/* ########################################## */
+
+
+
+.password {
+
+    font-size: 30px;
+    display: block;
+
+}
+
+
 .password::first-letter {
     color: white;
     font-size: 40px;
 }
 
+/* ########################################## */
 
 
-.fieldset {
+.email {
 
-    width: 300px;
-    height: 400px;
-
+    font-size: 30px;
+    display: block;
 
 }
 
+
+.email::first-letter {
+    color: white;
+    font-size: 40px;
+}
+
+/* ########################################## */
+
+input {
+    margin: 0 auto;
+    display: block;
+
+    width: 180px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+
+
+
 .container {
-    padding-top: 80px;
     padding-bottom: 80px;
     width: 100%;
 
 }
 
+/* 
+.fieldset {
 
+    width: 400px;
+    height: 500px;
+
+
+} */
 
 form {
-    width: 300px;
+    height: 100px;
+    width: 500px;
     margin: auto;
+    margin-top: 50px;
     text-align: center;
 
 }
 
 @media only screen and (max-width: 600px) {
     form {
-        padding: 20px;
+        /* padding: px; */
         width: 300px;
+        height: 100vh;
+
+
+        
     }
 
 }
@@ -92,16 +138,18 @@ form {
 @media screen and (max-width: 900px) and (min-width: 601px) {
 
     form {
-        padding: 20px;
-        width: 300px;
+        padding: 0px;
+        width: 400px;
+        height: 100vh;
+
     }
 
 }
 
 
 .submit {
-    margin-left: 90px;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 30px;
 
     padding-right: 10%;
     padding-left: 30px;
@@ -153,9 +201,17 @@ i {
     padding-left: 10px;
     margin-left: 10px;
 
-position: relative;
+    position: relative;
 
-right:10px;
-/* top: px; */
+    right: 10px;
 
 }
+
+
+.gender {
+    padding-top: 10px;
+    color: aliceblue;
+
+}
+
+
