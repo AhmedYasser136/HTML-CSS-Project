@@ -4,8 +4,8 @@
 }
 
 body {
-    background-image: url(/imag/5.jpg);
-    background-size: cover;
+    background-image: url(../imag/5.jpg);
+    background-size: cover cover;
     background-repeat: no-repeat;
     width: 99vh;
     height: 92vh;
@@ -76,12 +76,18 @@ body {
     padding: 15px 50px;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover
+{
     background-color: rgb(231, 210, 16);
-    color: white;
-
-
+   color: white;
 }
+.logo1
+{
+    width: 40px;
+    margin: 20px 40px 15px 200px;
+    border-radius: 15px;
+    float: left;
+
 
 
 
@@ -91,3 +97,4 @@ marquee {
     background-color: white;
 
 }
+
