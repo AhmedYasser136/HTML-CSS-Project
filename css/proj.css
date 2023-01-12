@@ -15,19 +15,18 @@ body {
 
 .logo1 {
     position: absolute;
+    left: 0px;
     z-index: 2;
     width: 40px;
 
-    margin: 8px 40px 15px 200px;
+    margin: 8px 40px  200px;
     border-radius: 15px;
-    float: left;
-
 
 }
 
 .logo1:hover {
     width: 50px;
-    margin: 4px 40px 15px 200px;
+    margin: 4px 40px  200px;
 
 
 }
@@ -46,21 +45,6 @@ body {
     padding-top: 15px;
 }
 
-.navbar .reg1 {
-    position: absolute;
-    text-align: right;
-    right: -50px;
-
-
-}
-
-.navbar .reg2 {
-    position: absolute;
-    text-align: right;
-    right: 100px;
-
-
-}
 
 
 .navbar ul li {
@@ -80,6 +64,27 @@ body {
     background-color: rgb(231, 210, 16);
     color: white;
 
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 300px;
+       
+
+
+        
+    }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+
+    .navbar {
+        
+        width: 100vh;
+
+    }
 
 }
 
