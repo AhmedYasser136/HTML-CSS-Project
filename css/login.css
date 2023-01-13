@@ -118,7 +118,7 @@ body {
 
 
 .uname {
-    padding-top: 10%;
+    padding-top: 20%;
 
     font-size: 30px;
 
@@ -131,7 +131,8 @@ input {
 
     width: 180px;
     border-radius: 4px;
-    border: blue;
+    border: wheat;
+    background-color: wheat;
 
 }
 
@@ -153,6 +154,26 @@ input {
 .password::first-letter {
     color: white;
     font-size: 40px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .fieldset {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .fieldset {
+        width: 750px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fieldset {
+        width: 100%;
+    }
 }
 
 
@@ -186,35 +207,11 @@ form {
     right: 350px;
 }
 
-@media only screen and (max-width: 600px) {
-    form {
-        padding: 1px;
-        width: 300px;
-
-        position:absolute;
-        right: 20px;
-    }
-
-}
-
-@media screen and (max-width: 900px) and (min-width: 601px) {
-
-    form {
-        position:absolute;
-        right: 30vh;
-        /* padding-right: 200px; */
-        width: 300px;
-    }
-
-}
-
 
 .submit {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 170px;
 
-    padding-right: 10%;
-    padding-left: 30px;
     padding-top: 1px;
     width: 120px;
     height: 40px;
@@ -222,4 +219,10 @@ form {
     background: rgb(160, 29, 142);
     border-radius: 30px;
 
+}
+
+.submit:hover {
+    width: 150px;
+    height: 40px;
+    background-color: white;
 }

@@ -222,6 +222,7 @@ body {
 input {
     margin: 0 auto;
     display: block;
+    background-color: wheat;
 
     width: 180px;
     border-radius: 4px;
@@ -295,7 +296,11 @@ form {
     border-radius: 30px;
 
 }
-
+.submit:hover {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+}
 .gender {
     padding-top: 10px;
     color: aliceblue;
