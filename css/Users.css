@@ -141,13 +141,8 @@ body {
 
 caption{
     margin-bottom: 50px;
-
 }
 
-caption::first-letter{
-    color: white;
-    font-size: 30px;
-}
 .table {
 
     height: 100px;
