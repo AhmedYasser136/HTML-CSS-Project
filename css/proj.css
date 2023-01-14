@@ -34,6 +34,9 @@ body {
 }
 
 .navbar {
+
+
+    
     background-color: hwb(327 12% 47%);
 
     top: 0;
@@ -55,29 +58,51 @@ body {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
-    margin-right: 2vw;
-    padding: 1vw 5vw;
+    margin-right: 50px;
+    padding: 15px 50px;
 }
 
 .navbar ul li a:hover {
     background-color: rgb(231, 210, 16);
     color: white;
 
+
+}
+main{
+    margin-bottom: 400px;
 }
 
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+       
 
 
+        
+    }
+    main{
+        overflow: hidden;
+    }
 
+}
 
+@media screen and (max-width: 900px) and (min-width: 601px) {
+
+    .navbar {
+        width: 100%;
+
+    }
+
+}
 
 
 
 /* ############ */
 
 video{
-    margin-top: 8vw;
-    margin-left: 29vw;
-    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 30%;
+    border-radius: 10px;
 }
 
 
@@ -140,6 +165,8 @@ right:10px;
 
 .container {
     
+    margin-top: 100px;
+    margin-bottom: 120px;
     width: 1180px;
     padding: 15px;
     margin-left: auto;
@@ -164,9 +191,8 @@ right:10px;
     video{
         margin-top: 100px;
         margin-left: 150px;
+
     }
-  
-   
 }
 
 @media (max-width: 768px) {
@@ -239,6 +265,6 @@ right:10px;
             width: 108%;
         }
         main{
-            margin-bottom: 10vw;
+            margin-bottom: 100px;
         }
 }
