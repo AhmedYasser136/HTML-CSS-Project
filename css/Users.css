@@ -25,10 +25,7 @@ body {
 }
 
 .logo1:hover {
-    width: 50px;
-    margin: 4px 40px 200px;
-
-
+    border-radius: 50px;
 }
 
 .navbar {
@@ -139,33 +136,25 @@ body {
 }
 
 
-caption{
+caption {
     margin-bottom: 50px;
 
 }
 
-caption::first-letter{
+caption::first-letter {
     color: white;
     font-size: 30px;
 }
+
 .table {
 
     height: 100px;
     width: 500px;
     text-align: center;
-    position:absolute;
+    position: absolute;
 
     top: 100px;
     right: 440px;
     background-color: wheat;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-

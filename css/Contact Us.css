@@ -24,10 +24,7 @@ body {
 }
 
 .logo1:hover {
-    width: 50px;
-    margin: 4px 40px 200px;
-
-
+    border-radius: 50px;
 }
 
 .navbar {
