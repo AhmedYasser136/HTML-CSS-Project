@@ -7,48 +7,45 @@ body {
     background-image: url(/imag/5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 99vh;
-    height: 92vh;
+    position: relative;
+
 
 }
-
 
 .logo1 {
-    position: absolute;
-    left: 0px;
-    z-index: 2;
     width: 40px;
-
-    margin: 8px 40px 200px;
-    border-radius: 15px;
-
+    height: 40px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 
-.logo1:hover {
-    width: 50px;
-    margin: 4px 40px 200px;
+.logo1 img {
+    width: 100%;
+    display: block;
+}
 
 
+nav {
+    background-color: hwb(327 12% 47%);
+    width: 100%;
+    padding-bottom: 20px;
 }
 
 .navbar {
 
-
-    position: absolute;
-    background-color: hwb(327 12% 47%);
-
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 40px;
     text-align: center;
-    padding-top: 15px;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
 }
 
 
 
 .navbar ul li {
-    display: inline;
+    display: inline-block;
 }
 
 .navbar ul li a {
@@ -57,7 +54,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
     margin-right: 50px;
-    padding: 15px 50px;
+    padding: 10px 50px;
 }
 
 .navbar ul li a:hover {
@@ -68,7 +65,32 @@ body {
 }
 
 
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+    }
 
+    video{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+
+    .navbar {
+        width: 100%;
+
+    }
+    video{
+        width: 100%;
+    }
+
+}
+
+
+
+/* ############ */
 
 /* ############ */
 
@@ -100,7 +122,7 @@ body {
 
 .foot {
 
-    position: absolute;
+
     bottom: 0;
     right: 0;
     width: 100%;
@@ -123,13 +145,25 @@ body {
 
 
 
+.f-container {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+
+
+
 
 
 .container {
     min-height: 100vh;
     display: flex ;
     align-items: center;
-    margin-left: 30px;
+    width: 900px;
+    margin: auto;
 }
 
 .box {
@@ -246,3 +280,122 @@ body {
         "description";
     }
 }
+
+
+.logo1 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.logo1 img {
+    width: 100%;
+    display: block;
+}
+.logo1:hover {
+    border-radius: 50px;
+    }
+
+nav {
+    background-color: hwb(327 12% 47%);
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.navbar {
+
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+}
+
+
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    margin-right: 50px;
+    padding: 10px 50px;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(231, 210, 16);
+    color: white;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+    }
+
+    video{
+        width: 100%;
+    }
+    .container {
+        width: 92%;
+        margin: 0 15px;
+    }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+
+    .navbar {
+        width: 100%;
+
+    }
+    video{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .heading h1 {
+        font-size: 21px;
+    }
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar ul {
+        background-color: hwb(327 12% 47%);
+        top: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    .container {
+        margin-top: 190px;
+        margin-bottom: 0;
+    }
+
+    .foot {
+        width: 100%;
+    }
+
+    main {
+        margin-bottom: 100px;
+    }
+}
+
